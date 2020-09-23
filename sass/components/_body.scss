@@ -1,8 +1,8 @@
 body {
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.72;
-    color: var(--text-dark-color);
+    color: $text-dark-color;
     background-color: #ffffff;
 }

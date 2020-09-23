@@ -1,9 +1,9 @@
 .logo {
-    font-family: var(--secondary-font);
+    font-family:$secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var(--logo-black-color);
+    color: $logo-black-color;
 }

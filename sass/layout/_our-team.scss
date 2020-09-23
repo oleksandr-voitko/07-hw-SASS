@@ -30,6 +30,22 @@
     margin-bottom: 16px;
 }
 
+.team-list-item-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $titel-dark-color;
+}
+
+.team-list-item-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
@@ -52,7 +68,7 @@
 
 .social-links-item-link:hover,
 .social-links-item-link:focus{
-    background-color: var(--accent-btn-collor);
+    background-color: $accent-btn-collor;
     border-radius: 50%;
     fill: #fff;
 }
@@ -63,18 +79,3 @@
     height: 20px;
 }
 
-.team-list-item-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--titel-dark-color);
-}
-
-.team-list-item-position {
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-}

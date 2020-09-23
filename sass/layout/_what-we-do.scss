@@ -6,20 +6,12 @@
     display: flex;
 }
 
-.we-do-list-item:not(:last-child){
-    margin-right:30px;
-}
-
-.titel {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--titel-dark-color);
-}
 .we-do-list-item{
     position: relative;
+
+    &:not(:last-child){
+        margin-right:30px;
+    }
 }
 
 .we-do-list-link{
@@ -45,6 +37,15 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--titel-light-color);
+    color: $titel-light-color;
     
+}
+
+.titel {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $titel-dark-color;
 }

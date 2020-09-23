@@ -1,10 +1,11 @@
 .features{
     padding-top: 94px;
+
+    &.container{
+        display: flex;
+    }
 }
 
-.features .container{
-    display: flex;
-}
 .features-list{
     display: flex
 }
@@ -20,6 +21,7 @@
     background: #F5F4FA;
     border-radius: 4px;
 }
+
 .features-list-item-img {
     width: 70px;
     height: 70px;
@@ -35,7 +37,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--titel-dark-color);
+    color: $titel-dark-color;
 
     margin-bottom: 10px;
 }

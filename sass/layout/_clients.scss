@@ -1,5 +1,8 @@
-.customers .container {
-    display: flex;
+.customers {
+    .container {
+        display: flex;
+    }
+
 }
 
 .customers-list {
@@ -24,14 +27,13 @@
 
 .customers-link-item-logo{
     fill: #AFB1B8;
-    
 }
 
 .customers-list-link:hover .customers-link-item-logo,
 .customers-list-link:focus .customers-link-item-logo{
-    fill: var(--accent-btn-collor);
+    fill: $accent-btn-collor;
 }
 .customers-list-link:hover,
 .customers-list-link:focus{
-    border: 1px solid var(--accent-btn-collor);
+    border: 1px solid $accent-btn-collor;
 }
