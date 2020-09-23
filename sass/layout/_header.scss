@@ -23,18 +23,26 @@
 .header-mail {
     margin-right: 30px;
 }
+@mixin header-icon($width, $height, $fill, $marginRight) {
+    width: $width;
+    height: $height;
+    fill: $fill;
+    margin-right: $marginRight;
+}
 
 .header-tel-icon{
-    width: 10px;
-    height: 15px;
-    fill: currentColor;
-    margin-right: 10px;
+    @include header-icon(10px, 15px, currentColor, 10px)
+    // width: 10px;
+    // height: 15px;
+    // fill: currentColor;
+    // margin-right: 10px;
 }
 .header-mail-icon{
-    width: 16px;
-    height: 11px;
-    fill: currentColor;
-    margin-right: 10px;
+    @include header-icon(16px, 11px, currentColor, 10px)
+    // width: 16px;
+    // height: 11px;
+    // fill: currentColor;
+    // margin-right: 10px;
 }
 
 .header-mail,
@@ -53,7 +61,7 @@
 
     &:hover,
     &:focus {
-    color: $accent-color;
+        color: $accent-color;
     }
 }
 
@@ -82,7 +90,7 @@
 
     &:hover,
     &:focus {
-    color: $accent-color;
+        color: $accent-color;
     }
 }
 
@@ -104,4 +112,3 @@
         margin-top: 28px;
     }
 }
-
